@@ -1,6 +1,6 @@
 # ⚽ TacticHub
 
-**TacticHub** is a modern web platform for managing and analyzing FIFA Mobile and eFootball leagues with friends and the wider gaming community. Designed for competitive players, league organizers, and data enthusiasts, it offers tools to track match results, view live tables, analyze player performance, and more — all in real time.
+**TacticHub** is a modern web platform for managing and analyzing FIFA Mobile and eFootball leagues with friends and the wider gaming community. Designed for competitive players, league organizers, and data enthusiasts, it offers tools to track match results, view live tables, analyze player performance, and more all in real time.
 
 🚀 [Live Demo](https://tactichub.vercel.app)
 
@@ -31,24 +31,39 @@
 
 1. **Clone the Repository**
    git clone https://github.com/lebrondeno/tactichub.git
+   
    cd tactichub
+   
 Install Dependencies
+
 npm install
+
 Start Development Serve
+
 npm run dev
+
 Build for Production
+
 npm run build
 
 🛠️ Folder Structure
 
-├── public/              # Static assets
+├── public/      
+
 ├── src/
-│   ├── components/      # React UI components
-│   ├── pages/           # Page-level components
-│   ├── App.tsx          # Root app component
-│   └── main.tsx         # Entry point
+
+│   ├── components/     
+
+│   ├── pages/          
+
+│   ├── App.tsx        
+
+│   └── main.tsx        
+
 ├── package.json
+
 ├── vite.config.ts
+
 └── README.md
 
 🤝 Contributing
