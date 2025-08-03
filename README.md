@@ -30,32 +30,17 @@
 ## 📦 Getting Started (For Devs)
 
 1. **Clone the Repository**
-
-   ```bash
    git clone https://github.com/lebrondeno/tactichub.git
    cd tactichub
 Install Dependencies
-
-bash
-Copy
-Edit
 npm install
-Start Development Server
-
-bash
-Copy
-Edit
+Start Development Serve
 npm run dev
 Build for Production
-
-bash
-Copy
-Edit
 npm run build
+
 🛠️ Folder Structure
-bash
-Copy
-Edit
+
 ├── public/              # Static assets
 ├── src/
 │   ├── components/      # React UI components
@@ -65,11 +50,10 @@ Edit
 ├── package.json
 ├── vite.config.ts
 └── README.md
+
 🤝 Contributing
 Want to help us grow?
-
 Fork the repo
-
 Create a new branch: git checkout -b feature/tournament-system
 
 Make changes and commit: git commit -m "Add tournament bracket feature"
