@@ -1,0 +1,61 @@
+/* App.css - Minimal global styles for TacticHub */
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Optional: Global button hover effects */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* Optional: Global focus styles */
+input:focus,
+select:focus,
+button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Optional: Responsive text */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Optional: Print styles */
+@media print {
+  button {
+    display: none;
+  }
+  
+  .no-print {
+    display: none;
+  }
+}
