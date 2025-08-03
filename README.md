@@ -1,69 +1,100 @@
-# React + TypeScript + Vite
+# ⚽ TacticHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TacticHub** is a modern web platform for managing and analyzing FIFA Mobile and eFootball leagues with friends and the wider gaming community. Designed for competitive players, league organizers, and data enthusiasts, it offers tools to track match results, view live tables, analyze player performance, and more — all in real time.
 
-Currently, two official plugins are available:
+🚀 [Live Demo](https://tactichub.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📊 **Interactive League Table**: Real-time league standings with automatic calculations from match results.
+- 🧠 **Game Analysis**: Record match data manually and analyze trends.
+- 🎮 **Player Stats Tracker**: Track goals, assists, match appearances, and performance metrics.
+- 📅 **Match Fixtures & Results**: Add and update matches with intuitive forms.
+- 🏆 **Tournament Bracket System** (Coming soon): Organize knockout tournaments easily.
+- 🌍 **Community-Based**: Built for both friends and competitive global gamers.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🧑‍💻 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Frontend**: React + TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Getting Started (For Devs)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/lebrondeno/tactichub.git
+   cd tactichub
+Install Dependencies
+
+bash
+Copy
+Edit
+npm install
+Start Development Server
+
+bash
+Copy
+Edit
+npm run dev
+Build for Production
+
+bash
+Copy
+Edit
+npm run build
+🛠️ Folder Structure
+bash
+Copy
+Edit
+├── public/              # Static assets
+├── src/
+│   ├── components/      # React UI components
+│   ├── pages/           # Page-level components
+│   ├── App.tsx          # Root app component
+│   └── main.tsx         # Entry point
+├── package.json
+├── vite.config.ts
+└── README.md
+🤝 Contributing
+Want to help us grow?
+
+Fork the repo
+
+Create a new branch: git checkout -b feature/tournament-system
+
+Make changes and commit: git commit -m "Add tournament bracket feature"
+
+Push to GitHub: git push origin feature/tournament-system
+
+Open a Pull Request
+
+📌 Roadmap
+ League Table Management
+
+ Match Recording System
+
+ Player Statistics Tracker
+
+ Tournament Bracket Feature
+
+ Friend-based Analysis Sharing
+
+ Real-Time Game Data Integration (via APIs)
+
+📬 Contact
+Have questions or suggestions?
+
+✉️ Email: denochibo@gmail.com
+
+🌐 Project Lead: Lebrondeno
+
